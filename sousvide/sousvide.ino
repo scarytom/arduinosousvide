@@ -13,6 +13,10 @@ void setup(void) {
 void loop(void) {
   unsigned long currentMillis = millis();
   
+  if (currentMillis < previousMillis) {
+    previousMillis = 0;
+  }
+  
   if(currentMillis - previousMillis > INTERVAL) {
     previousMillis = currentMillis;
     Serial.println(temperature(0));
