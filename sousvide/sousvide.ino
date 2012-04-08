@@ -1,7 +1,7 @@
 #include <OneWire.h>
 
-const int  PIN_TEMPPROBE = 10;
-const int  INTERVAL = 700;
+const unsigned int  PIN_TEMPPROBE = 10;
+const unsigned int  INTERVAL = 700;
 
 OneWire  ds(PIN_TEMPPROBE);
 unsigned long previousMillis = 0;
