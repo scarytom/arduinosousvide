@@ -4,7 +4,7 @@ const int  PIN_TEMPPROBE = 10;
 const int  INTERVAL = 700;
 
 OneWire  ds(PIN_TEMPPROBE);
-long previousMillis = 0;
+unsigned long previousMillis = 0;
 
 void setup(void) {
   Serial.begin(9600);
