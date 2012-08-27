@@ -1,0 +1,4 @@
+1	60-5030	16a PCB Form A Power Relay - 5v	2	66 Available		£1.34	£0.000	£1.34	£2.68
+2	47-3309	1n4148 75V 200mA Signal Diode (Taped)	10	166951 Available		£0.010	£0.000	£0.010	£0.103
+3	47-3130	1n4001 1a 50v Silicon Rectifier Diode	5	53991 Available		£0.041	£0.000	£0.041	£0.205
+4	81-0256	2n2222a Npn General Purpose Rf	5	5497 Available		£0.195	£0.000	£0.195	£0.975
